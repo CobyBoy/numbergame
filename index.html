@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="random.css">
+    <title>Random</title>
+</head>
+<body>
+    <div id="container"> 
+            <p id="pregunta">¿Podés adivinar el número secreto? (Entre 0 y 50)<br> Ingresá el que creas que está guardado y presioná "Adivinar"</p> 
+            <div id="enter">
+                <input type="number" id="ingreso" required autofocus autocomplete="off" min="0" max="50" value="0">
+                <p id="respuesta"></p>
+                <p id="vidas"></p>
+                <p id="partidas"></p>
+                <p></p>
+                <input type="submit" class="boton" id="botonAdivinar" value="Adivinar">
+                <input type="reset" class="boton" id="reset" value="Juego Nuevo">
+            </div>
+            
+    </div>
+<script src="random.js"></script>
+</body>
+</html>
